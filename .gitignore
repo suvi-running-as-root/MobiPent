@@ -1,37 +1,58 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
+# === Node / React Native ===
 node_modules/
-
-# Expo
 .expo/
+.expo-shared/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+*.expo
+*.expo.js
+
+# Metro / React Native cache
+*.bundle
+*.log
+
+# Expo Go build cache
 dist/
 web-build/
-expo-env.d.ts
 
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
+# Android / iOS native build stuff (if you ever eject)
+android/
+ios/
 
-# Metro
-.metro-health-check*
+# === Python / FastAPI ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
 
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
+# Virtual environment folders
+venv/
+env/
+ENV/
+.venv/
+.Python
 
-# macOS
+# IDE / OS / Misc
 .DS_Store
-*.pem
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
 
-# local env files
-.env*.local
+# Uvicorn / FastAPI log files
+*.log
 
-# typescript
-*.tsbuildinfo
+# Uploads and build artifacts
+uploads/
+scan_reports/
+*.apk
+*.zip
+
+# Environment variable files (if you have them)
+.env
+.env.*
+
+# macOS system files
+*.DS_Store
