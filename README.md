@@ -141,10 +141,9 @@ Please keep code style consistent, write clear commit messages, and add tests wh
 
 ---
 
-## 📄 License
 
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
 *What this really means is:* you can spin up a local server, log in via the mobile app, upload any Android APK, and get back a quick rundown of its permissions and any string constants that look like secrets. Perfect for a first‑pass pentest or for educational demos.
+
