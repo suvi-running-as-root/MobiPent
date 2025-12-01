@@ -2,7 +2,7 @@
 
 > A comprehensive mobile security testing platform for Android APK analysis with OWASP MASVS/MASTG compliance
 
-[![Work in Progress](https://img.shields.io/badge/status-work%20in%20progress-yellow)](https://github.com/suvi-running-as-root/mobipent)
+[![Status](https://img.shields.io/badge/status-stable-brightgreen)](https://github.com/suvi-running-as-root/mobipent)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)](https://fastapi.tiangolo.com)
 [![Expo](https://img.shields.io/badge/Expo-SDK%2049+-000020.svg)](https://expo.dev)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
